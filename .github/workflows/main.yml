@@ -14,6 +14,6 @@ jobs:
         server: ftp.farinasistemadeensino.com.br
         username: farinasistemadeensino
         password: ${{ secrets.ftp_password }}
-        protocol: ftps
+        protocol: ftp
         port: 21 # todo replace with your web hosts ftps port
         dry-run: true #server-dir: www/actions/
